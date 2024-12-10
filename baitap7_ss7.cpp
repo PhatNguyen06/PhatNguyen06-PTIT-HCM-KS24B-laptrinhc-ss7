@@ -10,9 +10,9 @@ int main()
 	for(int i = 0; i < n; i++)
 	{
 		scanf("%d", &arr[i]);
-		while(arr[i] % 2 != 0)
+		while(arr[i] % 2 == 0)
 		{
-			printf("Yeu cau nhap so chan: ");
+			printf("Yeu cau nhap so le: ");
 			scanf("%d", &arr[i]);
 		}
 	}
